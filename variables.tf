@@ -1,4 +1,4 @@
-variable "bucket_name" {
+variable "instanceId" {
   type = string
 }
  
@@ -7,7 +7,4 @@ variable "region" {
   default = "ap-south-1"
 }
 
-variable "versioning" {
-  type    = bool
-  default = false
-}
+
