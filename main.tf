@@ -17,7 +17,7 @@ terraform {
 }
  
 resource "aws_instance" "ec2-terminate" {
-  instance_id = var.instanceId
+  instanceId = var.instanceId
 }
 
 
